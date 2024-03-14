@@ -38,7 +38,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className="big-screen">
           {/* <img
-            src=""
+            src={aryan_pic}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full w-[400] h-[400]"
           /> */}
@@ -48,7 +48,7 @@ const HomePage: React.FC = () => {
             objectFit="cover"
             quality={100}
             placeholder="blur"
-            className="hidden rounded-2xl absolute -right-6 -bottom-6 z-0 w-96 h-96"
+            className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>
